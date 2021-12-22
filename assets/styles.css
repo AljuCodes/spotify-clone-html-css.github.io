@@ -255,7 +255,7 @@ img.footer-img {
 footer {
   background-color: #000;
   width: auto;
-  height: 53.2em;
+  height: 30.2em;
   display: grid;
   padding-left: 270px;
   padding-top: 75px;
@@ -305,9 +305,8 @@ footer {
   display: flex;
 }
 .america-flag {
-  display: flex;
-  flex-direction: row;
-  width: 30%;
+
+  width: 16%;
   height: 15%;
   margin-left: 8px;
   margin-top: 3px;
