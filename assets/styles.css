@@ -242,151 +242,147 @@ height: 35em;
 /* cards 2 end */
 
 
-/* footer */
-.america-flag {
-    width: 12%;
-    height: 15%;
-    margin-left: 8px;
-    margin-top: 3px;
-  }
 .img-container {
-    width: 140px;
-    height: 45px;
-  }
+  width: 140px;
+  height: 45px;
+}
 img.footer-img {
-    width: 94%;
-  }
+  width: 94%;
+}
+
+
+
 footer {
-    background-color: #000;
-    width: auto;
-    height: 33.2em;
+  background-color: #000;
+  width: auto;
+  height: 53.2em;
   display: grid;
   padding-left: 270px;
   padding-top: 75px;
-  grid-template-columns: repeat(4,200px);
+  grid-template-columns: repeat(4, 190px);;
 }
 .footer-links {
-    display: grid;
-    grid-template-columns: repeat(3, 200px);
-    margin-top: 20px;
-  }
-  .footer-links ul li h5 {
-    color: #a9a9a9;
-    font-size: 12px;
-    font-family: lineto-pro-medium;
-    letter-spacing: 0.5px;
-    margin-bottom: 25px;
-  }
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  margin-top: 20px;
+}
+.footer-links ul li h5 {
+  color: #a9a9a9;
+  font-size: 12px;
+  font-family: lineto-pro-medium;
+  letter-spacing: 0.5px;
+  margin-bottom: 25px;
+}
+.footer-links ul li a {
+  display: flex;
+  color: #fff;
+  margin-bottom: 20px;
+  font-family: lineto-pro-book;
+}
 
 
-  /* last section */
-  .last-section-div {
-    width: auto;
-    margin-top: 25px;
-  }
-
-  .last-section-div ul {
-    position: absolute;
-    display: flex;
-    flex-direction: row;
-    margin-top: 5px;
-    margin-left: -190px;
-  }
-
-
-  .last-section-div ul li {
-    margin-right: 23px;
-  }
-
-  .last-section-div ul li a {
-    color: #a9a9a9;
-    font-size: 12px;
-    font-family: lineto-pro-book;
-  }
-/* footer end */
-
-
-/* social media icons */
 .last-section-div {
-    width: auto;
-    margin-top: 25px;
-  }
-  .last-section-div ul {
-    position: absolute;
-    display: flex;
-    flex-direction: row;
-    margin-top: 5px;
-    margin-left: -190px;
-  }
-  .last-section-div ul li {
-    margin-right: 23px;
-  }
-  .last-section-div ul li a {
-    color: #a9a9a9;
-    font-size: 12px;
-    font-family: lineto-pro-book;
-  }
-  .social-media-icons {
-    width: 220px;
-    height: 60px;
-    margin-left: 298%;
-    margin-top: 20px;
-  }
-  .state-copyright-area {
-    display: flex;
-  }
-  .america-flag {
-    width: 12%;
-    height: 15%;
-    margin-left: 8px;
-    margin-top: 3px;
-  }
-  .usa-text {
-    color: #a9a9a9;
-    margin-top: 4px;
-    margin-left: 348%;
-    font-size: 12px;
-    font-family: lineto-pro-medium;
-  }
-  .spotify-copyright {
-    color: #a9a9a9;
-    font-size: 12px;
-    font-family: lineto-pro-book;
-    margin-left: 400px;
-  }
+  width: auto;
+  margin-top: 25px;
+}
+.last-section-div ul {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  margin-top: 5px;
+  margin-left: -190px;
+}
+.last-section-div ul li {
+  margin-right: 23px;
+}
+.last-section-div ul li a {
+  color: #a9a9a9;
+  font-size: 12px;
+  font-family: lineto-pro-book;
+}
 
-.fa-instagram {
-    background: #242424;
-    color: white;
-    font-size: 28px;
-    width: 54px;
-    padding: 13px;
-    text-align: center;
-    border-radius: 50%;
-    margin-right: 10px;
-  }
-  .fa-twitter {
-    background: #242424;
-    color: white;
-    font-size: 24px;
-    width: 54px;
-    padding: 14.5px;
-    text-align: center;
-    border-radius: 50%;
-    margin-right: 10px;
-  }
-  .fa-facebook {
-    background: #242424;
-    color: white;
-    font-size: 25px;
-    width: 54px;
-    padding: 16px;
-    text-align: center;
-    border-radius: 50%;
-    margin-right: 10px;
-  }
-  
-  
+.state-copyright-area {
+  display: flex;
+}
+.america-flag {
+  display: flex;
+  flex-direction: row;
+  width: 30%;
+  height: 15%;
+  margin-left: 8px;
+  margin-top: 3px;
+}
+.usa-text {
+  color: #a9a9a9;
+  margin-top: 4px;
+  margin-left: 366%;
+  font-size: 12px;
+  font-family: lineto-pro-medium;
+}
+.spotify-copyright {
+  color: #a9a9a9;
+  font-size: 12px;
+  font-family: lineto-pro-book;
+  margin-left: 400px;
+}
+
+
+
+
+
+
+
+/* Buttons */
+
+
+
+.btn-green {
+  position: relative;
+  border: none;
+  background-color: #1db954;
+  width: 215px;
+  height: 500px;
+  padding: 16px;
+  top: 18px;
+  right: 114px;
+  border-radius: 25px;
+}
+.btn-white {
+  position: relative;
+  /* border: 2px solid black; */
+  background-color: #1db954;
+  width: 215px;
+  height: 500px;
+  padding: 16px;
+  top: -32px;
+  right: -114px;
+  border-radius: 25px;
+}
+.btn-white-text {
+  box-sizing: border-box;
+  color: #fff;
+  font-size: 16px;
+  font-family: lineto-pro-book;
+  letter-spacing: 2px;
+}
+.btn-black-text {
+  box-sizing: border-box;
+  color: #fff;
+  font-size: 16px;
+  font-family: lineto-pro-book;
+  letter-spacing: 2px;
+}
+.btn-green-card2 {
+  position: relative;
+  border: none;
+  background-color: #1db954;
+  width: 245px;
+  height: 50px;
+  padding: 16px;
+  top: 45px;
+  right: 10px;
+  border-radius: 25px;
+}
 
 
 
@@ -397,21 +393,21 @@ footer {
 
 
 a.green:hover {
-    color: #1db954;
-  }
-  .fa-instagram:hover,
-  .fa-facebook:hover,
-  .fa-twitter:hover,
-  .footer-links ul li a:hover,
-  .usa-text:hover {
-    color: #21ce61;
-  }
-  .btn-white:hover {
-    transform: scale(1.06);
-  }
-  .btn-green:hover,
-  .btn-green-card2:hover {
-    background-color: #21ce61;
-    transform: scale(1.06);
-  }
-  
+  color: #1db954;
+}
+.fa-instagram:hover,
+.fa-facebook:hover,
+.fa-twitter:hover,
+.footer-links ul li a:hover,
+.usa-text:hover {
+  color: #21ce61;
+}
+.btn-white:hover {
+  transform: scale(1.06);
+}
+.btn-green:hover,
+.btn-green-card2:hover {
+  background-color: #21ce61;
+  transform: scale(1.06);
+}
+
