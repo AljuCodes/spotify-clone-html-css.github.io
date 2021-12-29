@@ -198,7 +198,7 @@ p.subscription-text {
 
 .card-2 {
 top: 39em;
-background-image: url("/assets/spotify_md.png");
+background-image: url("spotify_md.png");
 background-repeat: no-repeat;
 background-size: 100% auto;
 height: 39em;
